@@ -1,0 +1,45 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.php
+config/database.local.php
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Temporary files
+/tmp/
+/temp/
+
+# User-generated files
+/uploads/
+
+# Database backups
+*.sql.gz
+*.sql.bak
+
+# Local MySQL data directory (if using bind mounts)
+/mysql-data/
+
+# Testing and coverage
+/coverage/
+.phpunit.cache/
